@@ -1,7 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-import android.util.Range;
-
 import com.qualcomm.hardware.rev.RevHubOrientationOnRobot;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -9,11 +7,11 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 import com.qualcomm.robotcore.hardware.IMU;
 import com.qualcomm.robotcore.hardware.Servo;
-
+//org/firstinspires/ftc/teamcode/drivetrain.java
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 
 @TeleOp(name = "2 gamepad bot")
-public class two_gamepad_bot extends OpMode {
+public class two_gamepad_bot_0 extends OpMode {
 
     private DcMotor intake1;
     private Servo Rservo1;
